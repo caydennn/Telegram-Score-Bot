@@ -59,9 +59,6 @@ def get_db_connection():
 
 
 
-# with open("scores.json") as f:
-#     score_dict = json.load(f)
-
 #! SQL - Get online scores as a dict
 def get_db_scores():
     conn = get_db_connection()
